@@ -10,6 +10,6 @@ if (guessedNumber === secretNumber) {
 	alert("Correct!");
 } else if (guessedNumber > secretNumber) {
 	alert("Too high!");
-} else if (guessedNumber < sescretNumber) {
+} else if (guessedNumber < sescretNumber) { //I know, I can "else" instead of " else if"
 	alert("Too low!");
 }
